@@ -1,0 +1,42 @@
+.footer {
+  background-color: #181a1d;
+  padding: 5% 0 2% 0;
+}
+
+.footer_wrapper {
+  border: 1px solid #00cf00;
+  border-left: none;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 10%;
+}
+
+.contacts a {
+  color: white;
+}
+
+.tg_icon {
+  width: 64px;
+  height: 64px;
+}
+
+.tg_link {
+  border-right: 1px solid #00cf00;
+}
+
+.li_icon {
+  width: 44px;
+  height: 64px;
+}
+
+.li_link {
+  border-right: 1px solid #00cf00;
+}
+
+.git_link {
+  border-right: 1px solid #00cf00;
+}
