@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "strogyi";
-  src: url("../../assets//fonts/StrogiyDemo-A-Black.otf");
-}
 
 .header {
   background-color: #181a1d;
@@ -17,7 +13,6 @@
 
 .header_nav a {
   text-decoration: none;
-  font-family: "strogyi";
   font-size: 20px;
   color: white;
   border-top: none;

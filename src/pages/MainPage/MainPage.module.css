@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sevillana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap");
 
 .mainpage {
   padding: 0;
@@ -163,16 +164,39 @@ h2::after {
   padding-top: 30px;
 }
 
-.face_image {
-  border-radius: 50%;
+.mainpage_img {
   width: 500px;
   height: 500px;
-  border: 3px solid #00cf00;
-  transition: 1s;
 }
 
-.face_image:hover {
-  box-shadow: 0 0 20px #00cf00;
+.face_image {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #00cf00;
+  transition: opacity 1s, box-shadow 1s;
+}
+
+.face_image_hidden {
+  opacity: 0;
+}
+
+.stack_div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2;
+  opacity: 0;
+}
+
+.stack_visible {
+  transition: opacity 3s;
+  opacity: 1;
 }
 
 .mainpage_btn {
@@ -254,6 +278,30 @@ h2::after {
   width: 15px;
   left: 80%;
   animation: move 3s infinite;
+}
+
+.text_sphere {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagcloud {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.0625em;
+  font-size: 1.3em;
+}
+
+.stack_visible {
+  color: #00cf00;
 }
 
 @keyframes move {
