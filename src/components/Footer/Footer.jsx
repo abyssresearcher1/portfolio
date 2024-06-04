@@ -10,16 +10,24 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footer_wrapper}>
         <div className={styles.contacts}>
-          <Link className={styles.tg_link}>
+          <Link className={styles.tg_link} to={"https://t.me/hiki1it"}>
             <img src={tg_icon} alt="" className={styles.tg_icon} />
           </Link>
-          <Link className={styles.li_link}>
+          <Link
+            className={styles.li_link}
+            to="https://www.linkedin.com/in/akylbek-ashyraliev-6b086429b/"
+          >
             <img src={li_icon} alt="" className={styles.li_icon} />
           </Link>
-          <Link className={styles.git_link}>
+          <Link
+            className={styles.git_link}
+            to="https://github.com/abyssresearcher1"
+          >
             <img src={git_icon} alt="" />
           </Link>
-          <Link className={styles.gmail_link}>akylbekashyraliev@gmail.com</Link>
+          <Link className={styles.gmail_link}>
+            @akylbekashyraliev@gmail.com
+          </Link>
         </div>
       </div>
     </footer>
