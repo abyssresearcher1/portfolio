@@ -3,49 +3,41 @@ import image from "../../assets/img/MYface.jpg";
 import Layout from "../../Layouts/Layout";
 import styles from "./MainPage.module.css";
 import cn from "classnames";
-import TagCloud from "TagCloud";
+import TagSphere from "../../tests/TagSphere";
 
 const MainPage = () => {
   const [isImageVisible, setIsImageVisible] = useState(true);
   const [isStackVisible, setIsStackVisible] = useState(false);
-  const textSphereRef = useRef(null);
 
   const toggleFunction = () => {
     setIsStackVisible(!isStackVisible);
     setIsImageVisible(!isImageVisible);
   };
 
-  useEffect(() => {
-    const container = textSphereRef.current;
-    const texts = [
-      "HTML",
-      "CSS",
-      "BEM",
-      "SASS",
-      "JavaScript",
-      "Jquery",
-      "React",
-      "ant-design",
-      "React-router",
-      "React-hook-form",
-      "ES6",
-      "GIT",
-      "GITHUB",
-      "Adaptive-layout",
-      "Axios"
-    ];
+  const skills = [
+    "HTML",
+    "CSS",
+    "SASS",
+    "JavaScript",
+    "TypeScript",
+    "TailwindCSS",
+    "MUI",
+    "Express",
+    "MongoDB",
+    "SQL",
+    "React",
+    "Vue",
+    "Node.js",
+    "Babel",
+    "StoryBook",
+    "ES6",
+    "Jest",
+  ];
 
-    const options = {
-      radius: 250,
-      maxSpeed: "fast",
-      initSpeed: "fast",
-      keep: true,
-    };
-
-    if (container) {
-      TagCloud(container, texts, options);
-    }
-  }, [0]);
+  const options = {
+    radius: 250,
+    maxSpeed: 3,
+  };
 
   return (
     <Layout>
@@ -85,7 +77,7 @@ const MainPage = () => {
                 [styles.stack_visible]: isStackVisible,
               })}
             >
-              <div ref={textSphereRef} className={styles.text_sphere}></div>
+              {isStackVisible && <TagSphere texts={skills} options={options} />}
             </div>
           </div>
         </div>

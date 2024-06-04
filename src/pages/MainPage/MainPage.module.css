@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sevillana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap");
 
 .mainpage {
@@ -14,6 +15,10 @@
 p {
   margin: 0;
   position: relative;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 p::before {
@@ -38,16 +43,19 @@ p::after {
   color: #444;
   position: absolute;
   left: 350px;
-  top: 20px;
+  top: 70px;
   text-shadow: none;
 }
 
 h1 {
   margin: 0;
   color: #00cf00;
-  text-shadow: 0 0 0px, 0 0px 10px, 0px 5px 20px;
-  font-family: "Edu TAS Beginner", cursive;
-  font-size: 50px;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
   position: relative;
 }
 
@@ -60,7 +68,7 @@ h1::before {
   color: #444;
   position: absolute;
   left: -100px;
-  top: 50px;
+  top: -20px;
   text-shadow: none;
 }
 
@@ -72,15 +80,13 @@ h1::after {
   font-size: 40px;
   color: #444;
   position: absolute;
-  left: 400px;
-  top: -30px;
+  left: 430px;
+  top: 25px;
   text-shadow: none;
 }
 
 h2 {
   margin: 0;
-  text-shadow: 0 0 0px, 0 0px 10px, 0px 5px 20px;
-  font-family: "Edu TAS Beginner", cursive;
   font-size: 30px;
   position: relative;
 }
@@ -280,28 +286,13 @@ h2::after {
   animation: move 3s infinite;
 }
 
-.text_sphere {
-  position: relative;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.tagcloud {
-  display: inline-block;
-  top: 0;
-  left: 0;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.0625em;
-  font-size: 1.3em;
-}
-
-.stack_visible {
-  color: #00cf00;
+.stack_div {
+  color: #ffff;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 0 0px 10px;
 }
 
 @keyframes move {
