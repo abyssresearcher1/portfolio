@@ -8,30 +8,31 @@ import TagSphere from "../../tests/TagSphere";
 const MainPage = () => {
   const [isImageVisible, setIsImageVisible] = useState(true);
   const [isStackVisible, setIsStackVisible] = useState(false);
+  const [isBtnClicked, setIsBtnClicked] = useState(false);
 
   const toggleFunction = () => {
     setIsStackVisible(!isStackVisible);
     setIsImageVisible(!isImageVisible);
+    setIsBtnClicked(!isBtnClicked);
   };
 
   const skills = [
     "HTML",
     "CSS",
+    "Bootstrap",
     "SASS",
+    "SCSS",
+    "Git",
+    "Github",
     "JavaScript",
-    "TypeScript",
-    "TailwindCSS",
-    "MUI",
-    "Express",
-    "MongoDB",
-    "SQL",
     "React",
-    "Vue",
-    "Node.js",
-    "Babel",
-    "StoryBook",
+    "axios",
+    "react-router",
+    "Redux",
     "ES6",
-    "Jest",
+    "Adaptive layout",
+    "Cross-browser-layout",
+    "json",
   ];
 
   const options = {
@@ -47,7 +48,7 @@ const MainPage = () => {
             <div className={styles.info_general}>
               <p className={styles.hello_text}>Здравствуйте! Меня зовут</p>
               <h2>Акылбек</h2>
-              <p>и я начинающий</p>
+              <p>и я </p>
               <h1>Front-end developer</h1>
             </div>
             <div className={styles.info_extra}>
@@ -57,7 +58,11 @@ const MainPage = () => {
               </p>
             </div>
             <div className={styles.mainpage_btn} onClick={toggleFunction}>
-              <span>Показать стек</span>
+              {!isBtnClicked ? (
+                <span>Показать стек</span>
+              ) : (
+                <span>Скрыть  стек</span>
+              )}
               <i></i>
             </div>
           </div>

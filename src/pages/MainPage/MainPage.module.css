@@ -10,6 +10,14 @@
   background: #181a1d;
   color: white;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainpage_wrapper {
+  max-width: 1200px;
+  display: flex;
+  gap: 100px;
 }
 
 p {
@@ -21,7 +29,7 @@ p {
   font-style: normal;
 }
 
-p::before {
+.mainpage p::before {
   content: "<p>";
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -34,7 +42,7 @@ p::before {
   text-shadow: none;
 }
 
-p::after {
+.mainpage p::after {
   content: "</p>";
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -91,7 +99,7 @@ h2 {
   position: relative;
 }
 
-h2::before {
+.mainpage h2::before {
   content: "<h2>";
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -104,7 +112,7 @@ h2::before {
   text-shadow: none;
 }
 
-h2::after {
+.mainpage h2::after {
   content: "</h2>";
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -118,7 +126,7 @@ h2::after {
 }
 
 .mainpage_info {
-  max-width: 29%;
+  max-width: 35%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -171,8 +179,8 @@ h2::after {
 }
 
 .mainpage_img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 .face_image {

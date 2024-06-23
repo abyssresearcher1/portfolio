@@ -5,10 +5,14 @@
   border-left: none;
 }
 
+.header_wrapper{
+  max-width: 1200px;
+}
+
 .header_nav {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  padding-left: 10%;
+  padding-left: 173px;
 }
 
 .header_nav a {
@@ -16,7 +20,7 @@
   font-size: 20px;
   color: white;
   border-top: none;
-  padding: 20px 10px 20px 10px;
+  padding: 10px 10px 15px 10px;
 }
 
 .main_link {

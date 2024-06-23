@@ -1,0 +1,119 @@
+.prjects {
+  height: 100%;
+  background: #181a1d;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.projects_wrapper {
+  max-width: 1200px;
+}
+
+.projects_general {
+  display: grid;
+  grid-template-columns: 213px 3fr;
+}
+
+.sidebar {
+  color: white;
+}
+
+.sidebar_nav {
+  border: 1px solid white;
+  border-bottom: none;
+  padding: 5% 0;
+  display: flex;
+  gap: 10px;
+}
+
+.sidebar_files {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 400px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #00cf00;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.projects_cards {
+  display: flex;
+}
+
+.files_home {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_about {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_projects {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_pret {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_pack {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_git {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.info_head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

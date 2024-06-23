@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.AboutPage {
+  height: 100%;
+  background: #181a1d;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.about_wrapper {
+  max-width: 1200px;
+}
+
+.AboutPage h3 {
+  color: white;
+  background-color: #00cf00;
+  text-align: center;
+  padding: 5px;
+}
+
+.about_general {
+  display: grid;
+  grid-template-columns: 213px 3fr;
+}
+
+.about_info {
+  border: 1px solid #00cf00;
+  border-top: none;
+}
+
+.sidebar {
+  color: white;
+}
+
+.sidebar_nav {
+  border: 1px solid white;
+  border-bottom: none;
+  padding: 5% 0;
+  display: flex;
+  gap: 10px;
+}
+
+.sidebar_files {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 400px;
+}
+
+.info_head {
+  background: #181a1d;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  width: 198px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.me {
+  color: white;
+  line-height: 24px;
+}
+
+.files_home {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_about {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_projects {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_pret {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_pack {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.files_git {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience_counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 0;
+  border: 1px solid #00cf00;
+  width: 40%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.experience_counter p {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
