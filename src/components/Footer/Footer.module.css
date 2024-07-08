@@ -4,7 +4,7 @@
 }
 
 .footer_wrapper {
-  border: 1px solid #00cf00;
+  border: 1px solid #6d597a;
   border-left: none;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .tg_link {
-  border-right: 1px solid #00cf00;
+  border-right: 1px solid #6d597a;
 }
 
 .li_icon {
@@ -34,9 +34,9 @@
 }
 
 .li_link {
-  border-right: 1px solid #00cf00;
+  border-right: 1px solid #6d597a;
 }
 
 .git_link {
-  border-right: 1px solid #00cf00;
+  border-right: 1px solid #6d597a;
 }

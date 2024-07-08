@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 .prjects {
   height: 100%;
   background: #181a1d;
@@ -55,7 +58,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   border: 1px solid #00cf00;
+  padding: 10px;
   width: 400px;
   border-radius: 10px;
   text-align: center;
@@ -116,4 +121,52 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.info_head_tabs {
+  display: flex;
+}
+
+.info_head_about {
+  border: 1px solid white;
+  padding: 10.5px;
+  width: 177.5px;
+}
+
+.info_head_projects {
+  border: 1px solid white;
+  padding: 10.5px;
+  width: 177.5px;
+}
+
+.com_projects_title {
+  text-align: center;
+  background-color: #00cf00;
+}
+
+.com_projects_cards {
+  border: 1px solid #00cf00;
+}
+
+.pet_projects_title {
+  text-align: center;
+  background-color: #00cf00;
+}
+
+.card_name {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.card_btn {
+  padding: 8px;
+  width: 160px;
+  background-color: #00cf00;
+  border: none;
+  border-radius: 10px;
+}
+
+.card_btn a {
+  text-decoration: none;
+  color: black;
 }

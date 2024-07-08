@@ -1,7 +1,7 @@
 
 .header {
   background-color: #181a1d;
-  border: 1px solid #00cf00;
+  border: 1px solid #6d597a;
   border-left: none;
 }
 
@@ -24,13 +24,13 @@
 }
 
 .main_link {
-  border-right: 1px solid #00cf00;
+  border-right: 1px solid #6d597a;
 }
 
 .about_link {
-  border-right: 1px solid #00cf00;
+  border-right: 1px solid #6d597a;
 }
 
 .project_link {
-  border-right: 1px solid #00cf00;
+  border-right: 1px solid #6d597a;
 }
