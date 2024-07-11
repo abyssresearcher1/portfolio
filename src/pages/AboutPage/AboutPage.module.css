@@ -15,7 +15,7 @@
 
 .AboutPage h3 {
   color: white;
-  background-color: #00cf00;
+  background-color: #ffa500;
   text-align: center;
   padding: 5px;
 }
@@ -26,7 +26,7 @@
 }
 
 .about_info {
-  border: 1px solid #00cf00;
+  border: 1px solid #ffa500;
   border-top: none;
 }
 
@@ -37,6 +37,7 @@
 .sidebar_nav {
   border: 1px solid white;
   border-bottom: none;
+  border-top: none;
   padding: 5% 0;
   display: flex;
   gap: 10px;
@@ -62,13 +63,13 @@
   color: white;
   text-align: center;
   border: 1px solid white;
+  border-top: none;
+  border-left: none;
   width: 198px;
   height: 44px;
   display: flex;
   align-items: center;
 }
-
-
 
 .me {
   color: white;
@@ -129,7 +130,7 @@
   align-items: center;
   gap: 20px;
   padding: 10px 0 10px 0;
-  border: 1px solid #00cf00;
+  border: 1px solid #ffa500;
   width: 40%;
   margin-top: 20px;
   border-radius: 5px;

@@ -16,9 +16,6 @@ const Header = () => {
           <Link to="/projects" className={styles.project_link}>
             Проекты
           </Link>
-          <Link to="/resume" className={styles.resume_link}>
-            Резюме
-          </Link>
         </nav>
       </div>
     </header>

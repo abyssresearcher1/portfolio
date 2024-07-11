@@ -53,15 +53,15 @@ const MainPage = () => {
             </div>
             <div className={styles.info_extra}>
               <p>
-                Это Сайт-портфолио где вы можете узнать про меня, мой опыт, а
-                так же ознакомитсья с моим резюме
+                Это Сайт-портфолио где вы можете узнать про меня, а так же про
+                мой опыт{" "}
               </p>
             </div>
             <div className={styles.mainpage_btn} onClick={toggleFunction}>
               {!isBtnClicked ? (
                 <span>Показать стек</span>
               ) : (
-                <span>Скрыть  стек</span>
+                <span>Скрыть стек</span>
               )}
               <i></i>
             </div>

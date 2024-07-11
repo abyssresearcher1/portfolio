@@ -24,6 +24,7 @@
 
 .sidebar_nav {
   border: 1px solid white;
+  border-top: none;
   border-bottom: none;
   padding: 5% 0;
   display: flex;
@@ -59,7 +60,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  border: 1px solid #00cf00;
+  border: 1px solid #FFA500;
   padding: 10px;
   width: 400px;
   border-radius: 10px;
@@ -129,28 +130,46 @@
 
 .info_head_about {
   border: 1px solid white;
+  border-top: none;
   padding: 10.5px;
   width: 177.5px;
 }
 
 .info_head_projects {
   border: 1px solid white;
+  border-top: none;
   padding: 10.5px;
   width: 177.5px;
 }
 
 .com_projects_title {
   text-align: center;
-  background-color: #00cf00;
+  background-color: #FFA500;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.com_projects_title h2 {
+  font-size: 20px;
+  padding: 3px;
 }
 
 .com_projects_cards {
-  border: 1px solid #00cf00;
+  border: 1px solid #FFA500;
+}
+
+.pet_projects_cards {
+  border: 1px solid #FFA500;
 }
 
 .pet_projects_title {
   text-align: center;
-  background-color: #00cf00;
+  background-color: #FFA500;
+}
+
+.pet_projects_title h2 {
+  font-size: 20px;
+  padding: 3px;
 }
 
 .card_name {
@@ -161,12 +180,15 @@
 .card_btn {
   padding: 8px;
   width: 160px;
-  background-color: #00cf00;
+  background-color: #FFA500;
   border: none;
   border-radius: 10px;
 }
 
 .card_btn a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
 }

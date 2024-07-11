@@ -14,36 +14,33 @@ import unistore from "../../assets/img/unistore.jpg";
 import redux from "../../assets/img/redux-todolist.jpg";
 import pokedex from "../../assets/img/pokedex.jpg";
 import weather from "../../assets/img/weather-app.jpg";
+import bakery from "../../assets/img/bakery.jpg";
 
 const ProjectsPage = () => {
   const projects = [
     {
       name: "Aalam.kg",
       img: aalam,
-      description:
-      "первая работа и коммерческий опыт",
-      link: "adasdasd",
+      description: "первая работа и коммерческий опыт",
+      link: "https://github.com/abyssresearcher1/Aalam",
     },
     {
       name: "3d-lens",
       img: lens,
-      description:
-        "проект для ютуба",
-      link: "dasdasdasdas",
+      description: "проект для ютуба",
+      link: "https://github.com/abyssresearcher1/3d-rain",
     },
     {
       name: "Fairy forest",
       img: parallax,
-      description:
-        "проект для ютуба",
-      link: "asdasdasd",
+      description: "проект для ютуба",
+      link: "https://github.com/abyssresearcher1/Parallax-forest",
     },
     {
       name: "Unistore",
       img: unistore,
-      description:
-        "вторая работа",
-      link: "asdasdasda",
+      description: "вторая работа",
+      link: "https://unistore.kg/",
     },
   ];
 
@@ -51,23 +48,26 @@ const ProjectsPage = () => {
     {
       name: "Redux-todolist",
       img: redux,
-      description:
-        "Todolist с использованием redux",
-      link: "dasdasdasd",
+      description: "Todolist с использованием redux",
+      link: "https://github.com/abyssresearcher1/Redux-Todolist",
     },
     {
       name: "Pokedex",
       img: pokedex,
-      description:
-        "pokedex",
-      link: "dasdasdasd",
+      description: "pokedex",
+      link: "https://github.com/abyssresearcher1/pokedex",
     },
     {
       name: "Weather-app",
       img: weather,
-      description:
-        "приложение погоды",
-      link: "dasdasdasd",
+      description: "приложение погоды",
+      link: "https://weather-app-flax-nine-68.vercel.app/",
+    },
+    {
+      name: "redux-cake-shop",
+      img: bakery,
+      description: "",
+      link: "https://github.com/abyssresearcher1/Cake-shop",
     },
   ];
 

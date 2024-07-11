@@ -124,10 +124,8 @@ const AboutPage = () => {
               <div className={styles.soft_skills}>
                 <h3>{"<h2>Soft skills</h2>"}</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Reiciendis assumenda fugiat consectetur ex? Quibusdam laborum
-                  maxime at dolores, maiores voluptate et aut non quasi.
-                  Consectetur vero suscipit repellat impedit earuwm!
+                  Быстро нахожу общий язык с людьми, быстро вникаю и обучаюсь
+                  чему то новому, усидчивый и терпеливый
                 </p>
               </div>
             </div>
